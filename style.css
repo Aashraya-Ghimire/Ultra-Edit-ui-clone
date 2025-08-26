@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 108px;
+}
+
+nav .logo {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+nav .logo img {
+  height: 60px;
+  width: 175px;
+}
+
+nav .nav-to {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 30px;
+}
+
+nav .nav-to img {
+  height: 5px;
+  width: 8px;
+}
+
+nav .nav-to .to {
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+nav .search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 35px;
+}
+
+.search button {
+  background: white;
+  border: 2px solid black;
+  padding: 8px 15px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.language img {
+  height: 18px;
+  width: 18px;
+}
+
+.icon img {
+  height: 20px;
+  width: 20px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+main {
+  margin: 40px 260px;
+}
+
+main .head {
+  text-align: center;
+}
+
+.head .first {
+  margin: 80px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  cursor: pointer;
+  font-size: 48px;
+  line-height: 62.4px;
+  color: rgb(34, 34, 34);
+}
+
+.head .first span {
+  font-weight: bold;
+}
+
+.head .second {
+  margin: 35px 0;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+}
+
+.head .download {
+  margin: 0 0 60px 0;
+  padding: 15px 18px;
+  color: white;
+  font-size: 14px;
+  background-color: #00b6d1;
+  border-width: 0 !important;
+  border-radius: 5px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-section .top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-section .top img {
+  height: 68px;
+  width: 60px;
+}
+
+.card-section .top p {
+  font-family: "Segoe UI";
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 31.2px;
+  color: rgb(34, 34, 34);
+}
+
+.card-section .top span {
+  font-size: 24px;
+  /* font-weight: 500; */
+  line-height: 31.2px;
+  color: rgb(34, 34, 34);
+}
+.card-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card-section .container .card {
+  text-align: center;
+  width: 302px;
+  padding: 16px;
+  border-radius: 5px;
+}
